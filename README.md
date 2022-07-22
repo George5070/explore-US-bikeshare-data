@@ -8,7 +8,8 @@ July 22,2022
 explore-US-bikeshare-data
 
 ### Description
-provide descriptive statistics of US bikeshare data
+Provide descriptive statistics of US bikeshare data
+Modify Python code - delete the comment from Line 125 to 134
 ### Files used
 Bikeshare_george.py
 Three data files including washington.csv, new_york_city.csv, chicago.csv
