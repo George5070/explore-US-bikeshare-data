@@ -14,9 +14,9 @@ def get_city():
     while True:
             city = input('Would you like to select data for Chicago(type \'c\'), New York (type \'n\'), or Washington(type \'w\')? ').lower().strip()
 
-            city_list = ['c', 'n', 'w']
+            cityList = ['c', 'n', 'w']
 
-            if city not in city_list:
+            if city not in cityList:
                 print('Invalid input, please try it again.')
             else:
                 break
@@ -122,7 +122,7 @@ def get_filters():
 
 # create this function to loads data for the specified city and filters by month and day if applicable.
 def load_data(city, month, day):
-    
+
     # load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
 
