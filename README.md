@@ -10,6 +10,7 @@ explore-US-bikeshare-data
 ### Description
 Provide descriptive statistics of US bikeshare data
 Modify Python code - delete the comment from Line 125 to 134
+Modify Python code - replace string "city_list" with "cityList" at Lines 17 and 19
 ### Files used
 Bikeshare_george.py
 Three data files including washington.csv, new_york_city.csv, chicago.csv
